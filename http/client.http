@@ -1,0 +1,13 @@
+GET http://localhost:8084/client/show
+###
+POST http://localhost:8084/client/new
+Content-Type: application/json
+
+{
+
+  "firstName":"Manali",
+  "lastName": "Tawar",
+  "phoneNumber":"1234567890",
+  "email":"pooja@gmail.com"
+
+}
